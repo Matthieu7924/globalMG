@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.active a {
+    color: blue;
+}
+
+/* ul {
+    background-color:blue;
+} */
+.w-75 {
+    width: 75%;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.playlist-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.playlist-card {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgba(59, 130, 246, 0.5);
+    text-shadow: 0px 0px 1px black;
+}
+
+form {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button[type="submit"]:hover {
+    background-color: brown;
+}
+.form-button[type="submit"]:hover {
+    background-color: green;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #ff3333;
+}
+
+.delete-button:focus {
+    outline: none;
+}
+
+.project-image {
+    height: 300px; /* Ajustez la hauteur souhaitée pour les images des projets */
+    object-fit: cover; /* Permet de conserver le ratio de l'image et de la recadrer */
+}
+
+.pinterest-image {
+    height: 300px; /* Ajustez la hauteur souhaitée pour l'image Pinterest */
+    object-fit: cover; /* Permet de conserver le ratio de l'image et de la recadrer */
+}
+
+.update-button {
+    background-color: #3490dc;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #2779bd;
+}
